@@ -6,7 +6,7 @@ Author(s): [JaredTheWolf](https://github.com/JaredTheWolf)
 ![GIF of app in action](https://i.postimg.cc/vTD1bkqB/output.gif)
 
 #### GitHub Info
- [![GitHub release (latest by date)](https://img.shields.io/github/v/release/JaredTheWolf/OpenSourceProtogenCollection?color=green&label=CLICK%20TO%20DOWNLOAD&style=flat-square)](https://github.com/JaredTheWolf/OpenSourceProtogenCollection/releases)
+ [![GitHub release (latest by date)](https://img.shields.io/github/v/release/OpenSourceProtogenCollection/ProtogenSSH?color=green&label=CLICK%20TO%20DOWNLOAD&style=flat-square)](https://github.com/OpenSourceProtogenCollection/ProtogenSSH/releases)
  [![GitHub license](https://img.shields.io/github/license/OpenSourceProtogenCollection/ProtogenSSH?style=flat-square)](https://github.com/JaredTheWolf/OpenSourceProtogenCollection/blob/master/LICENSE)
  [![GitHub issues](https://img.shields.io/github/issues/OpenSourceProtogenCollection/ProtogenSSH?style=flat-square)](https://github.com/JaredTheWolf/OpenSourceProtogenCollection/issues)
  ![Code status](https://img.shields.io/badge/code_status-complete_for_now-green?style=flat-square)
