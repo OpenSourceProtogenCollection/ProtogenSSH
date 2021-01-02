@@ -8,26 +8,17 @@ import androidx.room.PrimaryKey;
 @Entity(tableName = "CustomButton_table")
 public class CustomButton {
 
-    @PrimaryKey(autoGenerate = true)
-    @NonNull
-    @ColumnInfo(name = "id")
-    private int id;
-
+    @PrimaryKey
     @NonNull
     @ColumnInfo(name = "title")
-    private String mCustomButton;
+    private String mButtonTitle;
 
-    public CustomButton(@NonNull String CustomButton) {
-        this.mCustomButton = CustomButton;
+    public CustomButton(@NonNull String buttonTitle) {
+        this.mButtonTitle = buttonTitle;
     }
 
     @NonNull
-    public int getId() {
-        return this.id;
-    }
-
-    @NonNull
-    public String getCustomButton() {
-        return this.mCustomButton;
+    public String getButtonTitle() {
+        return this.mButtonTitle;
     }
 }
