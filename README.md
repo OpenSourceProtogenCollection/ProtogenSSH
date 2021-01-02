@@ -9,7 +9,7 @@ Author(s): [JaredTheWolf](https://github.com/JaredTheWolf)
  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/OpenSourceProtogenCollection/ProtogenSSH?color=green&label=CLICK%20TO%20DOWNLOAD&style=flat-square)](https://github.com/OpenSourceProtogenCollection/ProtogenSSH/releases)
  [![GitHub license](https://img.shields.io/github/license/OpenSourceProtogenCollection/ProtogenSSH?style=flat-square)](https://github.com/JaredTheWolf/OpenSourceProtogenCollection/blob/master/LICENSE)
  [![GitHub issues](https://img.shields.io/github/issues/OpenSourceProtogenCollection/ProtogenSSH?style=flat-square)](https://github.com/JaredTheWolf/OpenSourceProtogenCollection/issues)
- ![Code status](https://img.shields.io/badge/code_status-complete_for_now-green?style=flat-square)
+ ![Code status](https://img.shields.io/badge/code_status-work_in_progress-yellow?style=flat-square)
  
 #### Contact
  [![Telegram](https://img.shields.io/badge/-Telegram-blue?style=flat-square)](https://t.me/JaredTamana)
@@ -20,4 +20,7 @@ Author(s): [JaredTheWolf](https://github.com/JaredTheWolf)
  # Usage
  Compile it in Android Studio, or grab the latest release from the above link in Info.
  
- When entering commands, enter them exactly as you would at the command line (ie `python3 /home/pi/myScripts/test.py`).
+ v1.x: When entering commands, enter them exactly as you would at the command line (ie `python3 /home/pi/myScripts/test.py`).
+
+ # TODO
+ Please see the issues for the next milestone.
