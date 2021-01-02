@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "ProtogenSSH"
+rootProject.name = "My Application"
