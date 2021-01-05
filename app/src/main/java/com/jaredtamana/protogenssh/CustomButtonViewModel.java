@@ -22,4 +22,5 @@ public class CustomButtonViewModel extends AndroidViewModel {
     LiveData<List<CustomButton>> getAllCustomButtons() { return mAllCustomButtons; }
 
     public void insert(CustomButton button) { mRepository.insert(button); }
+//    public void delete(int id) { mRepository.delete(id); }
 }

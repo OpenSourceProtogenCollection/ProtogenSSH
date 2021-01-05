@@ -16,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 // Material imports
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.security.crypto.EncryptedSharedPreferences;
 import androidx.security.crypto.MasterKeys;
 
@@ -115,7 +116,7 @@ public class Functions {
     // Reads in button data and places buttons into the designated layout
     // accepts LinearLayout to be placed into, context for fileInput, view for snackbar
     // returns void
-    public static void readFile(LinearLayout emoteListLayout, String fileName, final Context context, Activity activity, final View baseView) {
+    public static void readFile(RecyclerView emoteListLayout, String fileName, final Context context, Activity activity, final View baseView) {
         try {
             // instantiate fis
             FileInputStream fileInputStream = context.openFileInput(fileName);

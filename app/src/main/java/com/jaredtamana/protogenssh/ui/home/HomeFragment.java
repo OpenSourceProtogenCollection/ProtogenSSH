@@ -16,6 +16,7 @@ import android.widget.Toast;
 // AndroidX imports
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.RecyclerView;
 
 // Material imports
 import com.google.android.material.snackbar.BaseTransientBottomBar;
@@ -32,7 +33,7 @@ public class HomeFragment extends Fragment { // main fragment start
                              ViewGroup container, Bundle savedInstanceState) {
         final View root = inflater.inflate(R.layout.fragment_home, container, false); // create fragment view
         Button fabCreateScript = root.findViewById(R.id.fab); // declare FAB reference
-        final LinearLayout mEmoteList = root.findViewById(R.id.scrollViewEmoteListLayout); // declare emote scrollView reference
+        final RecyclerView mEmoteList = root.findViewById(R.id.recyclerViewEmoteList); // declare emote scrollView reference
         Functions.readFile(mEmoteList, getString(R.string.fullFaceFile), getContext(), getActivity(), root.getRootView()); // read this fragment's data file and load the necessary buttons
         fabCreateScript.setOnClickListener(new View.OnClickListener() {
             @Override

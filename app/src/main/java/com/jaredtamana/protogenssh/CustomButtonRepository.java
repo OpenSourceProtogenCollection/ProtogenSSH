@@ -34,4 +34,10 @@ class CustomButtonRepository {
             mCustomButtonDao.insert(button);
         });
     }
+
+//    void delete(int id) {
+//        CustomButtonRoomDatabase.databaseWriteExecutor.execute(() -> {
+//            mCustomButtonDao.delete(id);
+//        });
+//    }
 }
