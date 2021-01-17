@@ -1,4 +1,7 @@
 # ProtogenSSH
+
+### Notice: ProtogenSSH will soon be deprecated in favour of a web-server solution. The project will live on, in another form, but for now all work has ceased while I work on a separate implementation that makes more sense for all platforms, not just Android.
+
 Super-simple Android SSH frontend for fursuiters and handlers
 
 Author(s): [JaredTheWolf](https://github.com/JaredTheWolf)
